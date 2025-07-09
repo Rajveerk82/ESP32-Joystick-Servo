@@ -8,7 +8,7 @@ Built and tested in [Wokwi Online Simulator](https://wokwi.com).
 
 ## 🔗 Live Simulation
 
-👉 [Click to Run on Wokwi](https://wokwi.com/projects/your-wokwi-project-id)
+👉 [Click to Run on Wokwi](https://wokwi.com/projects/435985700299376641)
 
 ---
 
