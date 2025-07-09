@@ -56,6 +56,9 @@ Built and tested in [Wokwi Online Simulator](https://wokwi.com).
 
 ---
 
+> 🛡️ **Watermark:** This diagram was created by **Rajveerk82** using Wokwi. Please credit if used.
+
+
 ## 🚀 Try It Yourself
 
 Run it directly in the Wokwi simulator — no hardware needed!
