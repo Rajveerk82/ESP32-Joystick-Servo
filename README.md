@@ -1,26 +1,63 @@
-# ESP32-Joystick-Servo
-ESP32 project to control a servo motor using a joystick and display angle on LCD.
-# 🎮 ESP32 Joystick Controlled Servo
+# 🎮 ESP32 Joystick Controlled Servo (Wokwi Simulation)
 
-This project uses a joystick to control a servo motor using an ESP32 board. It also displays the current servo angle on a 16x2 I2C LCD.
+This project simulates a joystick-controlled servo motor using an ESP32, with real-time angle display on an I2C LCD.
 
-## 🛠️ Components Used
+Built and tested in [Wokwi Online Simulator](https://wokwi.com).
+
+---
+
+## 🔗 Live Simulation
+
+👉 [Click to Run on Wokwi](https://wokwi.com/projects/your-wokwi-project-id)
+
+---
+
+## 🧰 Components Used
+
 - ESP32 Dev Board
-- Joystick Module
+- Joystick Module (Analog)
 - Servo Motor (SG90)
-- 16x2 I2C LCD Display
-- Jumper Wires
+- I2C 16x2 LCD Display
 
-## 🔌 Connections
-| Component | ESP32 Pin |
-|-----------|-----------|
-| Joystick VRx | GPIO 25 |
-| Servo Signal | GPIO 18 |
-| LCD SDA      | GPIO 21 |
-| LCD SCL      | GPIO 22 |
+---
 
-## 📷 Preview
-![Wiring Diagram](images/circuit_diagram.jpg)
+## 🔌 Circuit Connections
 
-## 💻 Code Location
-See the `code/joystick_servo_lcd.ino` file.
+| Component       | ESP32 Pin |
+|----------------|-----------|
+| Joystick VRx   | GPIO 25   |
+| Servo Signal   | GPIO 18   |
+| LCD SDA        | GPIO 21   |
+| LCD SCL        | GPIO 22   |
+| All GNDs       | GND       |
+| All VCCs       | 3.3V or 5V|
+
+---
+
+## 🧠 How It Works
+
+- Analog joystick input is read from GPIO 25
+- The input is mapped from 0–4095 to a servo angle (0–180°)
+- The angle is written to the servo using `ESP32Servo`
+- The current angle is displayed on a 16x2 LCD
+
+---
+
+## 📁 Files Included
+
+- `project.ino` - Arduino sketch for ESP32
+- `diagram.json` - Wokwi virtual wiring configuration
+
+---
+
+## 📸 Preview
+
+(Add screenshot here of the Wokwi simulation or LCD output)
+
+---
+
+## 🚀 Try It Yourself
+
+Run it directly in the Wokwi simulator — no hardware needed!
+
+> Great for showcasing on your resume, LinkedIn, or in interviews.
