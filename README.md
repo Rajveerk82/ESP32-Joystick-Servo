@@ -52,7 +52,7 @@ Built and tested in [Wokwi Online Simulator](https://wokwi.com).
 
 ## 📸 Preview
 
-![Circuit Diagram](https://i.ibb.co/N2y8LwBQ/Screenshot-2025-07-09-141724.png)
+![Circuit Diagram](/circuit-diagram.png)
 
 ---
 
